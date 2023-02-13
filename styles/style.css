@@ -235,3 +235,29 @@ hr {
     border-style: none;
     margin-top: 76px;
 }
+
+/* Footer Section */
+
+.footer {
+    background-color: #0B0D17;
+    width: 1440px;
+    height: 177px;
+    margin: 130px auto 0px auto;
+}
+
+.footer-title {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    text-align: center;
+}

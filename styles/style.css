@@ -52,9 +52,7 @@
 }
 
 /* Main Section */
-.about {
-    max-width: 780px;
-    margin: 0px auto;
+.donate-today, .donate-plan, .get-update {
     margin-top: 130px;
 }
 
@@ -63,20 +61,23 @@
     font-size: 45px;
     text-align: center;
     color: #121212;
-
+    margin-bottom: 20px;
 }
 
 .section-description {
-    margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
     color: #707070;
-
+    max-width: 690px;
 }
 
 .donation {
+    max-width: 780px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
@@ -112,9 +113,93 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #DADADA;
+    max-width: 765px;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
 }
+
+/* donate plan section */
+
+.plan-section {
+    display: flex;
+    max-width: 1128px;
+    margin: 0px auto;
+}
+
+.plan-pic {
+    margin: 64px auto auto 23px;
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 32px auto 16px 23px;
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin-left: 23px;
+
+}
+
+.plan-1 {
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 48px;
+}
+
+.plan-2 {
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-right: 48px;
+}
+
+.plan-3 {
+    width: 360px;
+    height: 352px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+/* howto Section */
+
+.howto-1 {
+    display: flex;
+    max-width: 1032px;
+    margin: auto;
+}
+
+.howto-details {
+    width: 493px;
+    height: 374px;
+    margin: 182px auto 0px auto;
+}
+
+.howto-details>h2, .howto-details>p {
+    text-align: left;
+}
+
+.howto-image-1 {
+    width: 456px;
+    height: 477px;
+    margin: 130px auto 0px auto;
+}
+
+.howto-2 {
+    display: flex;
+    max-width: 1032px;
+    margin: auto;
+}
+
+/* get-update section */

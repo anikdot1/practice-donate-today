@@ -52,7 +52,9 @@
 }
 
 /* Main Section */
-.donate-today, .donate-plan, .get-update {
+.donate-today,
+.donate-plan,
+.get-update {
     margin-top: 130px;
 }
 
@@ -186,7 +188,8 @@ hr {
     margin: 182px auto 0px auto;
 }
 
-.howto-details>h2, .howto-details>p {
+.howto-details>h2,
+.howto-details>p {
     text-align: left;
 }
 
@@ -202,4 +205,33 @@ hr {
     margin: auto;
 }
 
-/* get-update section */
+/* email section */
+
+.email {
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-email {
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+    margin-top: 76px;
+    padding-left: 20px;
+}
+
+.btn-email {
+    background-color: #FF5959;
+    color: white;
+    width: 157px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    border-style: none;
+    margin-top: 76px;
+}

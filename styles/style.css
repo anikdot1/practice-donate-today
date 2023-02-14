@@ -102,20 +102,24 @@
     border-radius: 5px;
 }
 
-.other-amount>p {
+.input-amount {
     font-weight: 400;
     font-size: 18px;
+    padding: 10px 0 10px 0;
     text-align: center;
     color: #B3B3B3;
+    border-bottom: 1px #DADADA solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 765px;
 }
 
-hr {
+.other-amount {
     margin-top: 10px;
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #DADADA;
-    max-width: 765px;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
